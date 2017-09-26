@@ -1,12 +1,13 @@
 {
   "name": "@ianwremmel/eslint-config-standard",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0-development",
+  "description": "@ianwremmel's preferred modern lint rules",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "pretest": "npm run --silent lint",
-    "test": "eslint -c ./main.js ./test/main.js"
+    "pretest": "npm run lint",
+    "test": "eslint -c ./index.js ./test/main.js && node ./test/example.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [],
   "author": "Ian W. Remmel <design@ianwremmel.com>",
@@ -16,9 +17,20 @@
     "url": "https://github.com/ianwremmel/eslint-config-standard.git"
   },
   "devDependencies": {
-    "eslint": "^4.7.2"
+    "@ianwremmel/eslint-config-base": "^1.0.0",
+    "condition-circle": "^1.5.0",    
+    "eslint": "^4.7.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "semantic-release": "^8.0.3"    
   },
-  "dependencies": {
+  "peerDependencies": {
+    "eslint": "^4.7.2",
+    "@ianwremmel/eslint-config-base": "^1.0.0",
+    "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-mocha": "^4.11.0"
+  },
+  "release": {
+    "verifyConditions": "condition-circle"
   }
 }
