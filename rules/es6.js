@@ -2,7 +2,10 @@
 
 module.exports = {
   rules: {
-    'object-shorthand': `error`,
+    'object-shorthand': [
+      `error`,
+      `always`
+    ],
     'no-var': `error`,
     'prefer-arrow-callback': `error`,
     'prefer-const': `error`,
