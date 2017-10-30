@@ -3,11 +3,12 @@
 module.exports = {
   rules: {
     quotes: [
-      `error`,
-      `backtick`
+      'error',
+      'single',
+      {avoidEscape: true}
     ],
     'require-jsdoc': [
-      `error`,
+      'error',
       {
         require: {
           ArrowFunctionExpression: false,
