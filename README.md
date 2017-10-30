@@ -8,6 +8,10 @@
 
 > @ianwremmel's preferred modern lint rules
 
+## Versioning
+
+Since nearly every style change is a "breaking change", this repository increments minor version number for auto-fixable style changes and major version number for changes that must be addressed manually.
+
 ## Install
 
 ```bash
