@@ -3,9 +3,9 @@
 module.exports = {
   rules: {
     'valid-jsdoc': [
-      `error`,
+      'error',
       {
-        matchDescription: `.+`,
+        matchDescription: '.+',
         requireReturn: true,
         requireReturnType: true,
         requireParamDescription: true,
