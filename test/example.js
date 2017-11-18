@@ -37,16 +37,36 @@ function f(x) {
 
 const blarg = {
   a,
+  /**
+   * A description
+   * @returns {boolean}
+   */
   b() {
     return true;
   }
 };
 
 const y = {
+  /**
+   * A description
+   * @returns {Object}
+   */
   b() {
+    /**
+     * A description
+     * @returns {Object}
+     */
     return {
+      /**
+       * A description
+       * @returns {Object}
+       */
       c() {
         return {
+          /**
+          * A description
+          * @returns {boolean}
+          */
           d() {
             return true;
           }
