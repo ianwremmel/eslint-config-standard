@@ -14,6 +14,7 @@ module.exports = {
           ArrowFunctionExpression: false,
           ClassDeclaration: true,
           FunctionDeclaration: true,
+          FunctionExpression: true,
           MethodDefinition: true
         }
       }
