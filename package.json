@@ -22,7 +22,7 @@
     "eslint": "^4.7.2",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-mocha": "^4.11.0",
-    "semantic-release": "^12.2.2"    
+    "semantic-release": "^15.0.2"    
   },
   "peerDependencies": {
     "eslint": "^4.7.2",
