@@ -1,7 +1,7 @@
 # @ianwremmel/eslint-config-standard
 
 [![CircleCI](https://circleci.com/gh/ianwremmel/eslint-config-standard.svg?style=svg)](https://circleci.com/gh/ianwremmel/eslint-config-standard)
-[![Greenkeeper badge](https://badges.greenkeeper.io/ianwremmel/eslint-config-standard.svg?token=35a4d251319f7e1813c079051755d7945a17d9eeff046f0dc763c21ef2ea9967&ts=1506394073152)](https://greenkeeper.io/)
+[![Dependabot badge](https://img.shields.io/badge/Dependabot-active-brightgreen.svg)](https://dependabot.com/)
 [![node](https://img.shields.io/node/v/gh-badges.svg)](https://www.npmjs.com/package/@ianwremmel/eslint-config-standard)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
