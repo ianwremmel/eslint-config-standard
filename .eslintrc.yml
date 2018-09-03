@@ -1,9 +1,0 @@
-env:
-  node: true
-extends:
-  - './index.js'
-parserOptions:
-  sourceType: script
-rules:
-  sort-keys: off
-
